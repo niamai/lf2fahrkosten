@@ -11,7 +11,7 @@ Diese Anwendung wird den Nutzern von SqooTec zu einer Summe in Euro verhelfen, j
 git clone https://github.com/niamai/lf2fahrkosten.git
 ```
 
-oder lade dir das zip herunter über den grünen "Code"-Button https://github.com/niamai/lf2fahrkosten und entpacke es
+- oder lade dir das zip herunter über den grünen "Code"-Button https://github.com/niamai/lf2fahrkosten und entpacke es
 
 - (im Terminal) wechsle in den Ordner, wo die "fahrkosten.py" liegt und führe das Programm aus mit:
 
