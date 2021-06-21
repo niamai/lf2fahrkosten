@@ -13,7 +13,13 @@ git clone https://github.com/niamai/lf2fahrkosten.git
 
 - oder lade dir das zip herunter über den grünen "Code"-Button https://github.com/niamai/lf2fahrkosten und entpacke es
 
-- (im Terminal) wechsle in den Ordner, wo die "fahrkosten.py" liegt und führe das Programm aus mit:
+- (im Terminal) wechsle in den Ordner, wo die "fahrkosten.py" liegt
+
+```
+cd [Ordnerpfad]
+```
+
+- und führe das Programm aus mit:
 
 ```
 python fahrkosten.py
@@ -23,7 +29,7 @@ python fahrkosten.py
 
 ## Verwendung
 
-![picture alt](./Bilder/Cursor_and_General___Microsoft_Teams.png "Code_Beispiel")
+![Code Besipiel](Bilder/code_example.jpg "Code_Beispiel")
 
 ## Contributing
 
