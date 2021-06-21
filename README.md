@@ -29,7 +29,7 @@ python fahrkosten.py
 
 ## Verwendung
 
-![Code Besipiel](Bilder/code_example.jpg "Code_Beispiel")
+![Code Besipiel](./images/code_example.jpg "Code_Beispiel")
 
 ## Contributing
 
