@@ -1,5 +1,5 @@
-# user gets a greeting.
-print("Hallo!")
+# der Benutzer erhält eine Begrüßung
+print("Herzlichen Dank für die Nutzung der ScooTeq E-Roller!")
 
 
 def check_is_digit(input_str):
@@ -10,25 +10,20 @@ def check_is_digit(input_str):
         correct_input = input_str
 
 
-# user should choose how many meters the ride was.
-distanz_input = input(
-    "Bitte tragen Sie ein, wie viele Meter Sie gefahren sind? ")
-check_is_digit(distanz_input)
+# der Benutzer soll die Länge der Fahrt in Metern eingeben
+check_is_digit(input(
+    "Bitte tragen Sie ein, wie viele Meter Sie gefahren sind? "))
 distanz = correct_input
 
-# user should input the duration of the ride.
-zeit_input = input(
-    "Bitte tragen Sie ein, wie viele Minuten Sie gefahren sind? ")
-check_is_digit(zeit_input)
+# der Benutzer soll die Dauer der Fahrt in Minuten eingeben
+check_is_digit(input(
+    "Bitte tragen Sie ein, wie viele Minuten Sie gefahren sind? "))
 zeit = correct_input
 
-# berechnung des Preises in eurocent.
+# Berechnung des Preises in Eurocent.
 if zeit.isdigit() and distanz.isdigit():
     preis_cent = (float(distanz) * 0.2 + int(zeit) * 10) / 100
-    preis_cent = str(round(preis_cent, 2))
-    #vor_komma = preis_cent[:len(preis_cent)-2]
-    #nach_komma = preis_cent[len(preis_cent)-2:]
-
+    preis_cent = str("{:.2f}".format(preis_cent))
     preis_euro = preis_cent.replace(".", ",")
 
 #  Überprüfung, ob es nur eine Minute ist
@@ -37,6 +32,6 @@ if zeit == "1":
 else:
     minute = "Minuten"
 
-# preis wird zurueckgegeben
+# Preis wird zurueckgegeben
 print("Sie sind", distanz, "Meter und", zeit, minute,
-      "gefahren. Somit ergibt ein Preis von:",  preis_euro + "€.")
+      "gefahren. Somit ergibt sich ein Preis von:",  preis_euro + "€.")
