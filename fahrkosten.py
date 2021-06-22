@@ -12,12 +12,12 @@ def check_is_digit(input_str):
 
 # der Benutzer soll die Länge der Fahrt in Metern eingeben
 check_is_digit(input(
-    "Bitte tragen Sie ein, wie viele Meter Sie gefahren sind? "))
+    "Bitte tragen Sie ein, wie viele Meter Sie gefahren sind: "))
 distanz = correct_input
 
 # der Benutzer soll die Dauer der Fahrt in Minuten eingeben
 check_is_digit(input(
-    "Bitte tragen Sie ein, wie viele Minuten Sie gefahren sind? "))
+    "Bitte tragen Sie ein, wie viele Minuten Sie gefahren sind: "))
 zeit = correct_input
 
 # Berechnung des Preises in Eurocent.
